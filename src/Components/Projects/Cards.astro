@@ -1,7 +1,12 @@
 ---
 import Card from "./Card.astro";
+import projects from "./projects.json"
 ---
-<div class="grid grid-rows-1 md:grid-cols-2 gap-20 p-10">
-    <Card title={'hola'} image={'../../../public/rudeus.jpg'} body={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe in ex neque quia soluta veniam architecto ea, harum quisquam.  '}/>
-    <Card title={'hola'} image={'../../../public/rudeus.jpg'} body={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe in ex neque quia soluta veniam architecto ea, harum quisquam.  '}/>
+<p class="m-5 text-4xl font-bold">Projects</p>
+<div class="grid grid-rows-1 md:grid-cols-3 gap-10 p-10">    
+    {
+        projects.map((project,index)=>{
+            return(<a href={`#${index}`} class="md:transition md:hover:scale-110"><Card title={project.title} image={project.image} body={project.body} languages={project.languages}/></a>)
+        })
+    }
 </div>
