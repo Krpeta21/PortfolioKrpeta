@@ -1,5 +1,6 @@
 ---
 import Contact from "../Components/Contact.astro";
+import Footer from "../Components/Footer.astro";
 import Hero from "../Components/Hero.astro";
 import Navbar from "../Components/Navbar.astro";
 import Cards from "../Components/Projects/Cards.astro";
@@ -7,10 +8,13 @@ import Layout from "../Layout/Layout.astro";
 ---
 
 <Layout title="Portfolio">
-    <div class="md:w-[50%] m-auto flex flex-col justify-center items-center bg-white">
-      <Navbar />
-      <Hero />
-      <Cards/>
-      <Contact/>
-    </div> 
+  <div
+    class="md:w-[50%] m-auto flex flex-col justify-center items-center bg-white"
+  >
+    <Navbar />
+    <Hero />
+    <Cards />
+    <Contact />
+    <Footer />
+  </div>
 </Layout>
