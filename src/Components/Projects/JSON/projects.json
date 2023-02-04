@@ -1,39 +1,15 @@
 [
     {
-        "title":"Prueba",
-        "image":"/rudeus.jpg",
-        "link":"#1",
-        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe in ex neque quia soluta veniam architecto ea, harum quisquam.",
-        "languages":["Javascript","React","Firebase"]
+        "title":"COPROSE APP",
+        "image":"/COPROSEAPP.webp",
+        "link":"https://coproseapp.netlify.app/",
+        "body":"Mobile application for storing company information.",
+        "languages":["Javascript","React Native","Firebase"]
     },{
-        "title":"Prueba",
-        "image":"/rudeus.jpg",
-        "link":"#2",
-        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe in ex neque quia soluta veniam architecto ea, harum quisquam.",
-        "languages":["Javascript","React","Firebase"]
-    },{
-        "title":"Prueba",
-        "image":"/rudeus.jpg",
-        "link":"#3",
-        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe in ex neque quia soluta veniam architecto ea, harum quisquam.",
-        "languages":["Javascript","React","Firebase"]
-    },{
-        "title":"Prueba",
-        "image":"/rudeus.jpg",
-        "link":"#4",
-        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe in ex neque quia soluta veniam architecto ea, harum quisquam.",
-        "languages":["Javascript","React","Firebase"]
-    },{
-        "title":"Prueba",
-        "image":"/rudeus.jpg",
-        "link":"#5",
-        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe in ex neque quia soluta veniam architecto ea, harum quisquam.",
-        "languages":["Javascript","React","Firebase"]
-    },{
-        "title":"Prueba",
-        "image":"/rudeus.jpg",
-        "link":"#6",
-        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe in ex neque quia soluta veniam architecto ea, harum quisquam.",
-        "languages":["Javascript","React","Firebase"]
+        "title":"CHEF AI",
+        "image":"/CHEFAI.webp",
+        "link":"https://chefai.netlify.app/",
+        "body":"Web application created with co:here AI.",
+        "languages":["Javascript","Astro","Svelte"]
     }
 ]
