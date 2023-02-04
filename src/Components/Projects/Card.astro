@@ -8,7 +8,7 @@ interface Props {
 const { title, image, body, languages } = Astro.props;
 ---
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg">
+<div class="max-w-sm rounded overflow-hidden shadow-lg h-full">
   <img class="w-full aspect-video" src={image} alt="Projects" />
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">{title}</div>
@@ -16,7 +16,8 @@ const { title, image, body, languages } = Astro.props;
       {body}
     </p>
   </div>
-  <div class="px-6 pt-4 pb-2">
+  <p class="font-bold ml-6">Technologies:</p>
+  <div class="px-6 pt-4 pb-2 flex flex-col items-center">
     {
       languages.map((language) => {
         return (
