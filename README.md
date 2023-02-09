@@ -8,7 +8,7 @@ Live Demo: https://krpeta21.netlify.app/
 
 ## Screenshots
 
-![App Screenshot](https://i.postimg.cc/wBywvsyc/Hero.png)
+<p align="center">![App Screenshot](https://i.postimg.cc/wBywvsyc/Hero.png)</p>
 
 ## Technologies used
 
