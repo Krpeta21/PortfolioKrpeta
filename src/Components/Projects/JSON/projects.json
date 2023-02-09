@@ -11,5 +11,11 @@
         "link":"https://chefai.netlify.app/",
         "body":"Web application created with co:here AI.",
         "languages":["Javascript","Astro","Svelte"]
+    },{
+        "title":"Salud QR",
+        "image":"/SALUDQR.webp",
+        "link":"https://www.youtube.com/shorts/HVm8hued7AM",
+        "body":"Mobile application that can read information from QR codes.",
+        "languages":["Java"]
     }
 ]
