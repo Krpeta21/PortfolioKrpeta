@@ -10,8 +10,8 @@ Live Demo: https://krpeta21.netlify.app/
 <p align="center">
   <img src="https://i.postimg.cc/wBywvsyc/Hero.png">
 </p>
-## Technologies used
 
+## Technologies used
 **Developed in:** Astro, Javascript.
 
 
