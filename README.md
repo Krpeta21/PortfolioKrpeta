@@ -7,11 +7,11 @@ Welcome to my portfolio! I am a developer who is passionate about building web, 
 Live Demo: https://krpeta21.netlify.app/
 
 ## Screenshots
-
-![App Screenshot](https://i.postimg.cc/wBywvsyc/Hero.png)
+<p align="center">
+  <img src="https://i.postimg.cc/wBywvsyc/Hero.png">
+</p>
 
 ## Technologies used
-
 **Developed in:** Astro, Javascript.
 
 
