@@ -8,11 +8,11 @@ interface Props {
 const { title, image, body, languages } = Astro.props;
 ---
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg h-full">
+<div class="max-w-sm rounded overflow-hidden shadow-lg h-full dark:text-white dark:bg-[#522ba7]">
   <img class="w-full aspect-video" src={image} alt="Projects" />
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">{title}</div>
-    <p class="text-gray-700 text-base">
+    <p class="text-gray-700 dark:text-white text-base">
       {body}
     </p>
   </div>
@@ -21,7 +21,7 @@ const { title, image, body, languages } = Astro.props;
     {
       languages.map((language) => {
         return (
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+          <span class="inline-block bg-gray-200 dark:bg-[#A970FF] rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-white mr-2 mb-2">
             {language}
           </span>
         );

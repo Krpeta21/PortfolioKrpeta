@@ -2,19 +2,19 @@
 ---
 
 <section id="Contact" class="w-full">
-  <p class="text-3xl mt-5 font-bold text-center">Contact me</p>
+  <p class="text-5xl dark:text-white mt-5 font-bold text-center">Contact me</p>
   <div class="py-8 px-10">
     <form action="https://formspree.io/f/myyakeev" method="POST" class="space-y-8">
       <div>
         <label
           for="emaill"
-          class="block mb-2 text-sm font-bold text-gray-900 dark:text-gray-300"
+          class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
           >Email</label
         >
         <input
           type="email"
           name="email"
-          class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+          class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-[#A970FF]  dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
           placeholder="email@mail.com"
           required
         />
@@ -22,13 +22,14 @@
       <div>
         <label
           for="subject"
-          class="block mb-2 text-sm font-bold text-gray-900 dark:text-gray-300"
+          class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
           >Subject</label
         >
         <input
+          autocomplete="off"
           type="text"
           name="subject"
-          class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+          class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-[#A970FF]  dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
           placeholder="Let me know how can i help you..."
           required
         />
@@ -36,19 +37,20 @@
       <div class="sm:col-span-2">
         <label
           for="message"
-          class="block mb-2 text-sm font-bold text-gray-900 dark:text-gray-400"
+          class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
           >Mesage</label
         >
         <textarea
         name="message"
+        autocomplete="off"
           rows="6"
-          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 resize-none"
+          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-[#A970FF]  dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 resize-none"
           placeholder="Put your message here..."></textarea>
       </div>
       <div class="flex flex-col items-center">
         <button
           type="submit"
-          class="py-3 px-5 text-lg font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-primary-300"
+          class="py-3 px-5 text-lg font-medium text-center text-white rounded-lg bg-blue-700 dark:bg-[#522ba7] dark:hover:bg-[#A970FF]  hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-primary-300"
           >Contact me</button
         >
       </div>
