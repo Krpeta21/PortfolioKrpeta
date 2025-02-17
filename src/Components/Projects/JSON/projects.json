@@ -1,27 +1,37 @@
 [
-    {
-        "title":"COPROSE APP",
-        "image":"/COPROSEAPP.webp",
-        "link":"https://coproseapp.netlify.app/",
-        "body":"Mobile application for storing company information.",
-        "languages":["Javascript","React Native","Firebase"]
-    },{
-        "title":"CHEF AI",
-        "image":"/CHEFAI.webp",
-        "link":"https://chefai.netlify.app/",
-        "body":"Web application created with co:here AI.",
-        "languages":["Javascript","Astro","Svelte"]
-    },{
-        "title":"Salud QR",
-        "image":"/SALUDQR.webp",
-        "link":"https://www.youtube.com/shorts/HVm8hued7AM",
-        "body":"Mobile application that can read information from QR codes.",
-        "languages":["Java"]
-    },{
-        "title":"Git Easy Cli",
-        "image":"/giteasycli.webp",
-        "link":"https://www.npmjs.com/package/git-easy-cli",
-        "body":"This is a CLI application that helps you with git commands via the terminal.",
-        "languages":["Javascript"]
-    }
+  {
+    "title": "Imaac Landing Page",
+    "image": "/imaaclanding.webp",
+    "link": "https://imaac.org/",
+    "body": "Landing page for imaac de coatzacoalcos.",
+    "languages": ["Javascript", "React"]
+  },
+  {
+    "title": "COPROSE APP",
+    "image": "/COPROSEAPP.webp",
+    "link": "https://coproseapp.netlify.app/",
+    "body": "Mobile application for storing company information.",
+    "languages": ["Javascript", "React Native", "Firebase"]
+  },
+  {
+    "title": "CHEF AI",
+    "image": "/CHEFAI.webp",
+    "link": "https://chefai.netlify.app/",
+    "body": "Web application created with co:here AI.",
+    "languages": ["Javascript", "Astro", "Svelte"]
+  },
+  {
+    "title": "Salud QR",
+    "image": "/SALUDQR.webp",
+    "link": "https://www.youtube.com/shorts/HVm8hued7AM",
+    "body": "Mobile application that can read information from QR codes.",
+    "languages": ["Java"]
+  },
+  {
+    "title": "Git Easy Cli",
+    "image": "/giteasycli.webp",
+    "link": "https://www.npmjs.com/package/git-easy-cli",
+    "body": "This is a CLI application that helps you with git commands via the terminal.",
+    "languages": ["Javascript"]
+  }
 ]
